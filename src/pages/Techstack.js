@@ -12,7 +12,7 @@ const Techstack = () => {
       <div className="flex flex-col justify-center items-center">
         <div className="text-3xl leading-relaxed font-bold">My Tech Stack</div>
         <h1 className="text-2xl pb-8">
-          Technologies I've been working with recently
+          Technologies I&aposve been working with recently
         </h1>
         <div className="border rounded-xl flex flex-wrap justify-center">
           <div>

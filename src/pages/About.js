@@ -8,8 +8,8 @@ const About = () => {
         <p className="mt-6 text-xl pb-8">
           Stockholm based aspiring frontend developer with a background in
           accounting and theater. I like software development because it
-          combines problem solving and creativity, and that's something I'm
-          passionate about.
+          combines problem solving and creativity, and that&aposs something
+          I&aposm passionate about.
         </p>
         <div className="flex flex-row">
           <a

@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="flex flex-col justify-center items-center">
         <div className="text-3xl font-bold">Projects</div>
         <h1 className="text-2xl">
-          A selection of the things I've built so far
+          A selection of the things I&aposve built so far
         </h1>
         <div className="pt-16 flex">
           <Card2
