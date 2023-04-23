@@ -1,10 +1,10 @@
 import Card from "./Card";
-import { AiFillHtml5 } from "react-icons/Ai";
+import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/Di";
-import { SiJavascript } from "react-icons/Si";
+import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/Fa";
 import { SiRedux } from "react-icons/Si";
-import { AiFillGithub } from "react-icons/Ai";
+import { AiFillGithub } from "react-icons/ai";
 
 const Techstack = () => {
   return (

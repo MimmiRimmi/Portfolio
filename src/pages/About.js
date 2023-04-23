@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin } from "react-icons/Ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const About = () => {
   return (

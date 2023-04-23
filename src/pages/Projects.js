@@ -1,5 +1,5 @@
 import Card2 from "./Card2";
-import radioPlayer from "../assets/RadioPlayer.png";
+import radioPlayer from "../assets/Radioplayer.png";
 import WorldTime from "../assets/WorldTime.png";
 import Quiz from "../assets/Quiz.png";
 
