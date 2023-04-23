@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { AiFillGithub } from "react-icons/Ai";
-import { MdOutlinePreview } from "react-icons/Md";
+import { AiFillGithub } from "react-icons/ai";
+import { MdOutlinePreview } from "react-icons/md";
 
 const Card2 = (props) => {
   const { img, title, text, tech, livePreview, viewCode } = props;
