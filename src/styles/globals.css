@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  background-image: linear-gradient(
+    to right bottom,
+    #9bdc8a,
+    #6ee1b8,
+    #5de0e0,
+    #7adaf7,
+    #a6d3fb
+  );
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +29,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.image-cropper {
+  width: 280px;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #e88870;
+  margin: 10px;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  width: auto;
 }
