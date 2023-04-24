@@ -19,7 +19,7 @@ const Projects = () => {
               "In this project I used the API of Sveriges Radio (Swedish Radio) to fetch information about the radio channels and fetch playable audio stream urls to create a working radio player."
             }
             tech={"HTML, Tailwind, Javascript, React"}
-            livePreview={"https://world-time-lemon.vercel.app/"}
+            livePreview={"https://radio-player-react-five.vercel.app/"}
             viewCode={"https://github.com/MimmiRimmi/Radio-Player-React"}
           />
           <Card2
@@ -39,7 +39,7 @@ const Projects = () => {
               "This is a web page that shows what time it is in different cities of the world. In this project, among other things, React-router-dom and useParams are used."
             }
             tech={"HTML, Tailwind, Javascript, React"}
-            livePreview={"https://radio-player-react-five.vercel.app/"}
+            livePreview={"https://world-time-lemon.vercel.app/"}
             viewCode={"https://github.com/MimmiRimmi/WorldTime"}
           />
         </div>
