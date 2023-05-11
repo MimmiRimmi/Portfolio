@@ -5,13 +5,13 @@ import Quiz from "../assets/Quiz.png";
 
 const Projects = () => {
   return (
-    <div className="min-h-screen mt-20">
+    <div className="min-h-screen mt-10 md:mt-20">
       <div className="flex flex-col justify-center items-center">
-        <div className="text-3xl font-bold">Projects</div>
-        <h1 className="text-2xl">
+        <div className="text-lg md:text-3xl font-bold">My projects</div>
+        <h1 className="text-sm md:text-2xl">
           A selection of the things I&apos;ve built so far
         </h1>
-        <div className="pt-16 flex">
+        <div className="pt-12 pb-12 md:pt-16 md:pb-16 flex flex-col gap-6 md:gap-0 md:flex-row">
           <Card2
             img={radioPlayer}
             title={"Radio player with React"}

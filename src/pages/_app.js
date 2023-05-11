@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <nav>
-        <ul className="flex gap-8 justify-end pr-20 py-6 font-bold text-lg">
+        <ul className="flex justify-center md:flex-row gap-4 md:gap-8 md:justify-end md:pr-20 py-6 font-bold text-lg">
           <li>
             <Link
               href="/"
