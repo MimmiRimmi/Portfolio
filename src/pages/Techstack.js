@@ -88,7 +88,7 @@ const Techstack = () => {
 
           <Card
             icon={
-              <SiTailwindcss style={{ color: "#e34c26", fontSize: "3em" }} />
+              <SiTailwindcss style={{ color: "#38bdf8", fontSize: "3em" }} />
             }
             title={"Tailwind CSS"}
           />
