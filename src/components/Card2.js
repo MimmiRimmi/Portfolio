@@ -3,10 +3,23 @@ import { AiFillGithub } from "react-icons/ai";
 import { MdOutlinePreview } from "react-icons/md";
 
 const Card2 = (props) => {
-  const { img, title, text, tech, livePreview, viewCode } = props;
+  const {
+    img,
+    title,
+    text,
+    tech,
+    livePreview,
+    viewCode,
+    priority = false,
+  } = props;
   return (
-    <section className="flex flex-col border border-white bg-white rounded-xl w-[300px] mx-4 overflow-hidden">
-      <Image src={img} width={"180px"} />
+    <section className="flex flex-col border border-white bg-white rounded-xl w-[300px] overflow-hidden">
+      <Image
+        src={img}
+        width={"180px"}
+        alt="Project image"
+        priority={priority}
+      />
       <div className="px-4 pt-4 pb-5 text-sm">
         <h2 className="text-lg font-bold">{title}</h2>
         <p className="pt-2">{text}</p>
