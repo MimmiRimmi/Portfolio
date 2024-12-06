@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from "../assets/mimmi.PNG";
+import me from "../assets/mimmi.png";
 import About from "../components/About";
 import { Inter } from "next/font/google";
 import { animate, motion } from "framer-motion";
